@@ -1,36 +1,24 @@
-Grove_Water_Sensor  [![Build Status](https://travis-ci.com/Seeed-Studio/Grove_Water_Sensor.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Grove_Water_Sensor)
---------------------------------
+Wasserspiegelsensor
+----
+*(Seeed Studio Grove – Water Sensor)*
 
-[![Grove_Water_Sensor](https://statics3.seeedstudio.com/images/101020018%201.jpg)](http://www.seeedstudio.com/depot/twig-water-sensor-p-748.html?cPath=144_151)
+<img src=https://www.makeyourschool.de/wp-content/uploads/2018/10/29_wasserspiegelsensor-1024x1024.jpg width=400px>
 
-The Water Sensor module is part of the Grove system. It indicates whether the sensor is dry, damp or completely immersed in water by measuring conductivity. The sensor traces have a weak pull-up resistor of 1 MΩ. The resistor will pull the sensor trace value high until a drop of water shorts the sensor trace to the grounded trace. Believe it or not this circuit will work with the digital I/O pins of your Arduino or you can use it with the analog pins to detect the amount of water induced contact between the grounded and sensor traces.
+Der Wassersensor erkennt, ob er sich in Wasser befindet. Durch mehrere integrierte Fühler, die sich abhängig vom Wasserstand im oder außerhalb des Wassers befinden, kann der Sensor den aktuellen Wasserspiegel ermitteln. Feuchtigkeit verändert seine interne Leitfähigkeit, die schließlich als Indikator für Nässe genutzt werden kann. Der Sensor kann digital als Wassererkennung oder auch analog zur Ermittlung des Wasserstands genutzt werden. Der Sensor kann direkt oder mithilfe des Grove Shields an einen Arduino (digital und analog) oder Raspberry Pi (digital) angeschlossen werden.
 
-### Usage:
+Ein Einsatzzweck des Wasserspiegelsensors ist kann die Erkennung von Wasserlecks sein.
 
-Just open this ino file with Arduino IDE and play.
-
-Assume that you connected the grove correctly. 
-
-For connection guide and more information, please refer to [wiki page](http://wiki.seeedstudio.com/Grove-Water_Sensor/).
-
-    
 ----
 
-This demo is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php). Check License.txt for more information.<br>
+In diesem Repository findet ihr **Bibliotheken und Beispiel-Codes**, mit denen der hier vorliegende Sensor getestet werden kann. Wir richten uns hiermit an **jeden Mentor und jede Mentorin aus dem Rahmen von Make Your School** und ermutigen euch, die hier zusammengestellten Codes **nach Bedarf** und individuell gemachten Erfahrungen **anzupassen**. Beispiele können einfach im Ordner /examples hinzugefügt oder angepasst werden. Wir versuchen das Repository regelmäßig mit Hilfe von euren Änderungsvorschlägen zu aktualisieren.
 
-Contributing to this software is warmly welcomed. You can do this basically by<br>
-[forking](https://help.github.com/articles/fork-a-repo), committing modifications and then [pulling requests](https://help.github.com/articles/using-pull-requests) (follow the links above<br>
-for operating guide). Adding change log and your contact into file header is encouraged.<br>
-Thanks for your contribution.
+Das Repository basiert grundlegend auf den veröffentlichten Informationen und Codes von Seeed Studio. 
+Die deutsche Übersetzung stammt von [Make Your School](https://www.makeyourschool.de/). Fehlinterpretationen und Änderungen vorbehalten. Die Informationen dürfen frei genutzt, angepasst und verbreitet werden, solange die [Nutzungsrechte von Seeed Studio](https://github.com/Seeed-Studio/Grove_Dust_Sensor/blob/master/License.txt) beachtet werden. 
 
-Seeed Studio is an open hardware facilitation company based in Shenzhen, China. <br>
-Benefiting from local manufacture power and convenient global logistic system, <br>
-we integrate resources to serve new era of innovation. Seeed also works with <br>
-global distributors and partners to push open hardware movement.<br>
+**Weitere Informationen:**
 
+[Repository von Seed Studio](https://github.com/Seeed-Studio/)
 
+[Offizielles Wiki von Seed Studio](http://wiki.seeedstudio.com/Grove/)
 
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46589105-3/Grove_Water_Sensor)](https://github.com/igrigorik/ga-beacon)
-
-
+[Materialkoffer von Make Your School](https://www.makeyourschool.de/material/)
